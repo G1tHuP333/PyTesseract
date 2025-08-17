@@ -21,10 +21,6 @@ from os.path import realpath
 from tempfile import NamedTemporaryFile
 from time import sleep
 
-from packaging.version import InvalidVersion
-from packaging.version import parse
-from packaging.version import Version
-
 tesseract_cmd = 'tesseract'
 
 class Output:
